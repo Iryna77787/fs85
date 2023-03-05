@@ -1,3 +1,175 @@
+:root {
+
+}
+
 body {
     font-family: 'Inter', sans-serif;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    max-width: 1330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red;
+}
+
+
+/* ======================== HEADER ==================== */
+
+.header {
+    padding-top: 26px;
+    
+}
+
+.head-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-size: 28px;
+    line-height: 1.21;
+    color: green;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-list-link {
+    font-size: 12px;
+    line-height: 1.25;
+    color: green;
+}
+
+/* ============================= HERO ======================== */
+
+.hero {
+    padding-top: 146px;
+    padding-bottom:146px ;
+}
+.hero-title {
+    margin-bottom: 12px;
+    font-size: 40px;
+    line-height: 1.2;
+    color: green;
+}
+
+.hero-text {
+    margin-bottom: 28px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: green;
+}
+
+.hero-list {
+    font-size: 14px;
+    line-height: 1.21;
+    color: green;
+    margin-bottom: 14px;
+}
+
+.hero-list__item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.hero-list {
+    margin-bottom: 62px;
+}
+
+.btn {
+    max-width: 200px;
+    padding: 12px 60px;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #FFFFFF;
+    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    border-radius: 5px;
+    border: none;
+}
+
+/* ======================= FRATURES ======================= */
+
+.features {
+    padding-top: 38px;
+}
+
+.features-title {
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+}
+
+.features-text {
+    margin-bottom: 56px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    width: 855px;
+    color: #000000;
+}
+
+.features-list__title {
+    margin-bottom: 13px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+}
+
+.features-list__text {
+    font-size: 14px;
+    line-height: 1.21;
+    color: #000000;
+}
+
+.features-list__item:not(:last-child) {
+    margin-bottom: 54px;
+}
+
+.features-containers {
+    display: flex;
+
 }
